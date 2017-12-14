@@ -1,0 +1,392 @@
+body{
+    font-family: 'Lora', serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0
+}
+.container{
+    background: #eee
+}
+
+.social_top > li {
+    display: inline-block;
+}
+ 
+.social_top i {
+    border: 1px solid;
+    border-radius: 50%;
+    color: #333;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+}
+.social_top i:hover {
+    background: #00c3ff none repeat scroll 0 0;
+    border: 1px solid #00c3ff;
+    color: #fff;
+}
+.loginreg li {
+    display: inline-block;
+}
+.loginreg > ul {
+    text-align: right;
+}
+.loginreg a {
+    border: 1px solid;
+    color: #333;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.loginreg a:hover {
+    background: #00c3ff none repeat scroll 0 0;
+    border: 1px solid #00c3ff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.row.top_header {
+    background: #ddd none repeat scroll 0 0;
+    padding: 20px 0;
+}
+
+.row.logo_area {
+    background: #ddd none repeat scroll 0 0;
+    padding: 10px 0;
+}
+.row.top_header {
+    border-bottom: 1px solid #aaa;
+}
+.menu_top li {
+    display: inline-block;
+}
+.menu_top {
+    background: #141414 none repeat scroll 0 0;
+}
+.menu_top a {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+.logo img {
+}
+.menu_top li:hover a {
+    background: #00c6ff none repeat scroll 0 0;
+    text-decoration: none;
+}
+.bx-viewport {
+    border: medium none !important;
+    box-shadow: none !important;
+}
+.bx-wrapper {
+    margin-left: 9px;
+    padding-top: 20px;
+    text-align: center;
+}
+.footer_area .row {
+    background: #ddd none repeat scroll 0 0;
+    border-top: 4px solid #141414;
+    padding: 20px 0;
+}
+.section_title i {
+    color: #00c6ff;
+    display: block;
+    font-size: 48px;
+}
+.section_title.text-center > p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.single_cat.text-center {
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.fa.fa-dashboard {
+}
+.single_cat i {
+    color: #00c6ff;
+    font-size: 24px;
+}
+.see_more > a {
+    color: #333;
+    font-size: 18px;
+}
+.search_bar input[type="search"] {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #00c6ff;
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+}
+.search_bar input[type="submit"] {
+  background: #00c6ff none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  float: right;
+  height: 40px;
+  margin-right: -1px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 999;
+}
+
+.sidebar_categories {
+    margin: 20px 0;
+    padding: 10px;
+}
+.sidebar_categories a {
+    border-bottom: 1px dashed #ddd;
+    color: #333;
+    display: block;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.sidebar_right {
+    border-left: 1px solid #ddd;
+    padding: 0 5px;
+}
+.sidebar_banner img {
+    height: 50px;
+    margin: 0 auto;
+}
+.sidebar_banner {
+    text-align: center;
+}
+.single_latest {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.single_latest h4 a {
+    color: #333;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.single_latest h4 a:hover {
+    color: #00c6ff;
+    text-decoration: none;
+}
+.readmore > a {
+    border: 1px solid #00c6ff;
+    color: #00c6ff;
+    display: block;
+    float: right;
+    font-size: 16px;
+    padding: 5px;
+}
+.readmore > a:hover {
+    text-decoration: none;
+}
+
+.row.category {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+.sidebar_categories a:hover {
+  color: #00c6ff;
+  text-decoration: none;
+} 
+ 
+
+.admin_sidebarmenu li i {
+    display: block;
+}
+.admin_sidebarmenu li {
+    border-bottom: 1px solid #111;
+    border-top: 1px solid #333;
+}
+.admin_area .col-md-3.col-sm-3.col-xs-12 {
+    height: 100% !important;
+    padding: 0;
+    position: relative;
+}
+.admin_sidebarmenu a {
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 0;
+}
+ 
+.admin_sidebarmenu {
+    background: #222 none repeat scroll 0 0;
+    padding: 10px;
+}
+.admin_sidebarmenu a:hover {
+    text-decoration: none;
+}
+.admin_area .row {
+    position: relative;
+}
+
+.add_admin_content label {
+    display: block;
+}
+.add_admin_content input, .add_admin_content textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    padding: 10px 5px;
+    width: 100%;
+}
+.add_admin_content form p{
+    margin-bottom: 20px;
+}
+.add_admin_content h2{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.admin_sidebarmenu > ul {
+  border-bottom: 1px solid;
+  border-top: 1px solid #111;
+}
+.admin_latest {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+}
+
+#loginbox {
+    margin-top: 30px;
+}
+
+#loginbox > div:first-child {        
+    padding-bottom: 10px;    
+}
+
+.iconmelon {
+    display: block;
+    margin: auto;
+}
+
+#form > div {
+    margin-bottom: 25px;
+}
+
+#form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel {    
+    background-color: transparent;
+}
+
+.panel-body {
+    padding-top: 30px;
+    background-color: rgba(2555,255,255,.3);
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;                        
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.iconmelon,
+.im {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: block;
+  fill: #525151;
+}
+
+.iconmelon:after,
+.im:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body, html {
+    height: 100%;
+}
+section.login_area {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.login_area .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+form#form {
+  background: #111 none repeat scroll 0 0;
+  margin: 0 auto;
+  padding: 60px 20px 20px;
+  width: 50%;
+}
+
+.login_area .logo {
+    margin: 50px 0;
+    text-align: center; 
+}
+form#form input.btn.btn-primary.pull-right {
+  background: #00ccff none repeat scroll 0 0;
+  border: medium none;
+}
+
+.admin_latest span {
+    display: inline-block;
+    width: 49%;
+}
+.latest_admins.admin_latest li {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 5px;
+}
+.latest_admin_categories.admin_latest li {
+  margin: 10px 0;
+}
+.admin_area hr {
+  border: 2px solid #ddd;
+}
+
+.panel.panel-green {
+    background: #5db85b none repeat scroll 0 0;
+}
+.panel i {
+    color: #fff;
+}
+.panel .fa.fa-arrow-circle-right {
+    color: #2677b6;
+}
+.panel .col-xs-9.text-right {
+    color: #fff;
+    font-size: 18px;
+}
+.panel .col-xs-9.text-right .huge {
+    font-size: 36px;
+    font-weight: bold;
+}
+.panel.panel-red {
+    background: #d95350 none repeat scroll 0 0;
+}
+.panel.panel-orange {
+    background: #efad4d none repeat scroll 0 0;
+}
+.panel.panel-blue {
+    background: #418bca none repeat scroll 0 0;
+}
