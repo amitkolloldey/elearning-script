@@ -14,4 +14,3 @@ E Learning Blog Developed In Raw PHP
 <br>
 <img src="https://i.imgur.com/PPdnwxg.png" />
 <br><br><br><br>
-<strong> Warning:</strong> Less Secure PHP Project. Do Not Use For Any Production Purpose.
